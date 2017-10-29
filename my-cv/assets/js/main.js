@@ -5,21 +5,16 @@ $(document).ready(function() {
 
     $('.level-bar-inner').css('width', '0');
 
-    $(window).on('load', function() {
+    $('.level-bar-inner').each(function() {
 
-        $('.level-bar-inner').each(function() {
+        var itemWidth = $(this).data('level');
 
-            var itemWidth = $(this).data('level');
-
-            $(this).animate({
-                width: itemWidth,
-                opacity: 0.7
-            }, 800);
-
-        });
+        $(this).animate({
+            width: itemWidth,
+            opacity: 0.7
+        }, 800);
 
     });
-
 
 
 });
