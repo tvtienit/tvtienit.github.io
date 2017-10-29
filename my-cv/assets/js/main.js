@@ -1,20 +1,26 @@
-$(document).ready(function() {
+jQuery(document).ready(function($) {
 
 
     /*======= Skillset *=======*/
 
+
     $('.level-bar-inner').css('width', '0');
 
-    $('.level-bar-inner').each(function() {
+    $(window).on('load', function() {
 
-        var itemWidth = $(this).data('level');
+        $('.level-bar-inner').each(function() {
 
-        $(this).animate({
-            width: itemWidth,
-            opacity: 0.7
-        }, 800);
+            var itemWidth = $(this).data('level');
+
+            $(this).animate({
+                width: itemWidth,
+                opacity: 0.7
+            }, 800);
+
+        });
 
     });
+
 
 
 });
