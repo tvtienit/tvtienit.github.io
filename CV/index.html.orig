@@ -24,15 +24,26 @@ span.cls_011{font-family:"Calibri",serif;font-size:13.0px;color:rgb(108,108,108)
 div.cls_011{font-family:"Calibri",serif;font-size:13.0px;color:rgb(108,108,108);font-weight:normal;font-style:normal;text-decoration: none}
 -->
 </style>
+<<<<<<< HEAD
+<script type="text/javascript" src="fea92ca2-6583-11e9-9d71-0cc47a792c0a_id_fea92ca2-6583-11e9-9d71-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+=======
 <script type="text/javascript" src="21afe9e0-6582-11e9-9d71-0cc47a792c0a_id_21afe9e0-6582-11e9-9d71-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+>>>>>>> 65336bc03104c2d1819cbd84ac018e1b7c511a98
 </head>
 <body>
 <div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
 <div style="position:absolute;left:0px;top:0px">
+<<<<<<< HEAD
+<img src="fea92ca2-6583-11e9-9d71-0cc47a792c0a_id_fea92ca2-6583-11e9-9d71-0cc47a792c0a_files/background1.jpg" width=612 height=792></div>
+<div style="position:absolute;left:184.22px;top:45.72px" class="cls_003"><span class="cls_003">TRẦN VĂN TIẾN</span></div>
+<div style="position:absolute;left:273.89px;top:87.98px" class="cls_002"><span class="cls_002">+84776951195</span></div>
+<div style="position:absolute;left:227.69px;top:101.42px" class="cls_004"><span class="cls_004">tvtienit@gmail.com</span><span class="cls_005"> · /in/tvtienit/</span></div>
+=======
 <img src="21afe9e0-6582-11e9-9d71-0cc47a792c0a_id_21afe9e0-6582-11e9-9d71-0cc47a792c0a_files/background1.jpg" width=612 height=792></div>
 <div style="position:absolute;left:184.22px;top:45.72px" class="cls_003"><span class="cls_003">TRẦN VĂN TIẾN</span></div>
 <div style="position:absolute;left:273.89px;top:87.98px" class="cls_002"><span class="cls_002">+84776951195</span></div>
 <div style="position:absolute;left:197.54px;top:101.42px" class="cls_004"><span class="cls_004">tvtienit@gmail.com</span><span class="cls_005"> · /in/tran-tien-1940a0155/</span></div>
+>>>>>>> 65336bc03104c2d1819cbd84ac018e1b7c511a98
 <div style="position:absolute;left:72.02px;top:158.54px" class="cls_002"><span class="cls_002">Self-motivated, diligent seeking a position as a full-stack developer. Bringing skills in development,</span></div>
 <div style="position:absolute;left:72.02px;top:171.98px" class="cls_002"><span class="cls_002">abilities to contribute to the company's development. Improving English and soft skills. Ready to learn</span></div>
 <div style="position:absolute;left:72.02px;top:185.42px" class="cls_002"><span class="cls_002">new things to expand my knowledge.</span></div>
@@ -63,14 +74,23 @@ div.cls_011{font-family:"Calibri",serif;font-size:13.0px;color:rgb(108,108,108);
 </div>
 <div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
 <div style="position:absolute;left:0px;top:0px">
+<<<<<<< HEAD
+<img src="fea92ca2-6583-11e9-9d71-0cc47a792c0a_id_fea92ca2-6583-11e9-9d71-0cc47a792c0a_files/background2.jpg" width=612 height=792></div>
+=======
 <img src="21afe9e0-6582-11e9-9d71-0cc47a792c0a_id_21afe9e0-6582-11e9-9d71-0cc47a792c0a_files/background2.jpg" width=612 height=792></div>
+>>>>>>> 65336bc03104c2d1819cbd84ac018e1b7c511a98
 <div style="position:absolute;left:72.02px;top:46.32px" class="cls_006"><span class="cls_006">PROJECTS</span></div>
 <div style="position:absolute;left:72.02px;top:73.44px" class="cls_007"><span class="cls_007">•</span></div>
 <div style="position:absolute;left:90.02px;top:74.40px" class="cls_002"><span class="cls_002">SAP HANA Cockpit - Capture and Replay</span></div>
 <div style="position:absolute;left:90.02px;top:87.86px" class="cls_002"><span class="cls_002">-</span></div>
 <div style="position:absolute;left:108.02px;top:87.86px" class="cls_002"><span class="cls_002">SAP HANA cockpit provides a single point of access to a range of tools for administration and</span></div>
+<<<<<<< HEAD
+<div style="position:absolute;left:108.02px;top:101.30px" class="cls_002"><span class="cls_002">detailed monitoring of multiple, individual and tenant SAP HANA databases, and integrates the</span></div>
+<div style="position:absolute;left:108.02px;top:114.74px" class="cls_002"><span class="cls_002">SQL development capabilities required by administrators.</span></div>
+=======
 <div style="position:absolute;left:108.02px;top:101.30px" class="cls_002"><span class="cls_002">detailed monitoring of multiple, individual and tenant SAP HANA databases, and also integrates</span></div>
 <div style="position:absolute;left:108.02px;top:114.74px" class="cls_002"><span class="cls_002">the SQL development capabilities required by administrators.</span></div>
+>>>>>>> 65336bc03104c2d1819cbd84ac018e1b7c511a98
 <div style="position:absolute;left:90.02px;top:128.06px" class="cls_002"><span class="cls_002">-</span></div>
 <div style="position:absolute;left:108.02px;top:128.06px" class="cls_002"><span class="cls_002">Capture and Replay: Capturing and replaying workloads from an SAP HANA database helps you</span></div>
 <div style="position:absolute;left:108.02px;top:141.50px" class="cls_002"><span class="cls_002">evaluate potential impacts on performance or stability after a change in the hardware or</span></div>
