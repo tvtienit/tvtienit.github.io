@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Page-Enter" content="progid:DXImageTransform.Microsoft.Fade(duration=1)">
+    <meta http-equiv="Page-Exit" content="progid:DXImageTransform.Microsoft.Fade(duration=1)">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="Stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Happy Birthday</title>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="counterup.js"></script>
+    <script type="text/javascript" src="timroi.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="sweetalert2.all.min.js"></script>
+    <script language="javascript">
+
+        title_tmp1 = document.title
+
+        if (title_tmp1.indexOf(">>") != -1) {
+
+            title_tmp2 = title_tmp1.split(">>");
+
+            title_last = "*~*" + title_tmp2[1];
+
+            title_last = title_last + "*~*" + title_tmp2[2];
+
+        } else {
+
+
+
+            if (title_tmp1.indexOf("*~*") != -1) {
+
+                title_tmp2 = title_tmp1.split("*~*");
+
+                title_last = "*~*" + title_tmp2[1];
+
+                if (title_last == "*~*") { title_last = "*~*" };
+
+                if (title_last == "*~*") { title_last = "*~*" };
+
+            }
+
+            else { title_last = " Gửi cho #Trúc... " }
+
+        }
+
+        title_new = "" + title_last + ""
+
+        step = 0
+
+        function flash_title() {
+
+            step++
+
+            if (step == 8) { step = 1 }
+
+            if (step == 1) { document.title = '[~~~~*' + title_new + '*~~~~]' }
+
+            if (step == 2) { document.title = '[~~~*~' + title_new + '-*~~~]' }
+
+            if (step == 3) { document.title = '[~~*~~' + title_new + '~~*~~]' }
+
+            if (step == 4) { document.title = '[~*~~~' + title_new + '~~~*~]' }
+
+            if (step == 5) { document.title = '[~~*~~' + title_new + '~~*~~]' }
+
+            if (step == 6) { document.title = '[~~~*~' + title_new + '~*~~~]' }
+
+            if (step == 7) { document.title = '[~~~~*' + title_new + '*~~~~]' }
+
+            setTimeout("flash_title()", 180);
+
+        }
+
+        flash_title();
+
+        function scrollToBottom(elm_id) {
+            var elm = document.getElementById(elm_id);
+            try {
+                elm.scrollTop = elm.scrollHeight;
+            }
+            catch (e) {
+                var f = document.createElement("input");
+                if (f.setAttribute) f.setAttribute("type", "text")
+                if (elm.appendChild) elm.appendChild(f);
+                f.style.width = "0px";
+                f.style.height = "0px";
+                if (f.focus) f.focus();
+                if (elm.removeChild) elm.removeChild(f);
+            }
+        }
+
+    </script>
+    
+</head>
+<body onload="javascript:fireAlert([teclear]);">	
+    <div id="TextCounter">
+        <strong>Tiến</strong>
+        <img src="heartr.png" />
+        <strong>#Trúc</strong> <span id="counter">
+            <script type="text/javascript">
+                new CountUp('January 25 2017 20:30:00', 'counter', "...  ");
+            </script>
+        </span>
+    </div>
+    <div id="BgContent">
+        <div id="copyright">
+            From: Tiến cute phô mai que
+        </div>
+        <div id="TextContent">
+        </div>
+        <div id="MusicPlayer">
+            <iframe src="https://mp3.zing.vn/embed/song/ZW60OO8E?start=true" width="1" height="1" frameborder="0" allowfullscreen></iframe><br />
+        </div>
+    </div>
+    <div id="canvas">
+    </div>
+    <script type="text/javascript" src="protoclass.js"></script>
+    <script type="text/javascript" src="box2d.js"></script>
+    <script type="text/javascript" src="Main.js"></script>
+    <script type="text/javascript" src="message.js"></script>
+    <script type="text/javascript" src="sweetalert.js"></script>
+</body>
+</html>
